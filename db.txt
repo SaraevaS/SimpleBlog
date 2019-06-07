@@ -1,0 +1,15 @@
+create database project;
+
+
+
+use project;
+
+
+
+create table data (
+id INT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(250),
+type VARCHAR(250),
+content MEDIUMTEXT,
+data VARCHAR(255)
+);
